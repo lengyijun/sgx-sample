@@ -9,5 +9,8 @@ interface/enclave_t.h
 interface/enclave_u.c
 interface/enclave_u.h
 
+sealeddata.bin
+secp256r1.pem
+
 //go output
 sgx-sample
