@@ -18,7 +18,7 @@ limitations under the License.
 package main
 
 // #cgo CFLAGS: -I${SRCDIR}/ -I/opt/intel/sgxsdk/include/
-// #cgo LDFLAGS: ${SRCDIR}/interface/libenclave_stub_u.a ${SRCDIR}/libapp.a /opt/intel/sgxsdk/lib64/libsgx_urts.so /opt/openssl-1.1.1f/lib/libcrypto.so
+// #cgo LDFLAGS: ${SRCDIR}/libapp.a /opt/intel/sgxsdk/lib64/libsgx_urts.so /opt/openssl-1.1.1f/lib/libcrypto.so
 // #include<./app/app.h>
 import "C"
 
