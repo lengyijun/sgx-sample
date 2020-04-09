@@ -23,8 +23,8 @@ static struct option long_options[] = {
 
 
 /**
-../app/app --sign --enclave-path `pwd`/../enclave/enclave.signed.so --statefile sealeddata.bin --signature Sensor_Data.signature ../Sensor_Data
 ../app/app --keygen --enclave-path `pwd`/../enclave/enclave.signed.so --statefile sealeddata.bin --public-key secp256r1.pem
+../app/app --sign --enclave-path `pwd`/../enclave/enclave.signed.so --statefile sealeddata.bin --signature Sensor_Data.signature ../Sensor_Data
  * main()
  */
 int ff(int op)
@@ -34,7 +34,7 @@ int ff(int op)
     const char *opt_enclave_path = "/home/sgx/sgx-sample/enclave.signed.so";
     const char *opt_statefile = "sealeddata.bin" ;
     const char *opt_signature_file = "Sensor_Data.signature";
-    const char *opt_input_file =  "../Sensor_Data";
+    const char *opt_input_file =  "Sensor_Data";
     const char *opt_public_key_file = "secp256r1.pem";
 
     if(op==1){
