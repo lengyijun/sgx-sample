@@ -11,6 +11,7 @@ interface/enclave_u.h
 
 sealeddata.bin
 secp256r1.pem
+go
 
 //go output
 sgx-sample
