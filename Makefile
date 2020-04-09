@@ -8,7 +8,7 @@ include common/common.mk
 
 .PHONY: all clean
 
-all:
+all: main.go
 	$(MAKE) $(MFLAGS) -C enclave SGX_MODE=$(SGX_MODE) $(MAKECMDGOALS)
 	$(MAKE) $(MFLAGS) -C app SGX_MODE=$(SGX_MODE) $(MAKECMDGOALS)
 	cp enclave/enclave.signed.so .
