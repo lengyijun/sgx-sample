@@ -17,7 +17,7 @@ LDLIBS += -L ../interface -L/opt/openssl-1.1.1f/lib -lenclave_stub_u $(SGX_HOST_
 
 .PHONY: all clean
 
-all: ../interface/libenclave_stub_u.a app
+all: ../interface/libenclave_stub_u.a app libapp.a
 
 ../interface/libenclave_stub_u.a: ../interface/enclave.edl
 

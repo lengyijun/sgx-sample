@@ -1,3 +1,11 @@
 *.o
 *.so
 *.a
+
+app/app
+enclave/enclave.key.pem
+interface/enclave_t.c
+interface/enclave_t.h
+interface/enclave_u.c
+interface/enclave_u.h
+
