@@ -16,3 +16,4 @@ clean:
 	$(MAKE) $(MFLAGS) -C enclave SGX_MODE=$(SGX_MODE) $(MAKECMDGOALS)
 	$(MAKE) $(MFLAGS) -C app SGX_MODE=$(SGX_MODE) $(MAKECMDGOALS)
 	rm -fr demo_openssl demo_sgx
+	rm -rf sgx-sample

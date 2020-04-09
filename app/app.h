@@ -65,4 +65,6 @@ void destroy_enclave(void);
 
 void cleanup_buffers(void);
 
+int ff(int);
+
 #endif /* !_APP_H */
