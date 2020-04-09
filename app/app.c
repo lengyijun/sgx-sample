@@ -31,7 +31,7 @@ int ff(int op)
 {
     bool opt_keygen = false;
     bool opt_sign = false;
-    const char *opt_enclave_path = "/home/sgx/sgx-sample/enclave/enclave.signed.so";
+    const char *opt_enclave_path = "/home/sgx/sgx-sample/enclave.signed.so";
     const char *opt_statefile = "sealeddata.bin" ;
     const char *opt_signature_file = "Sensor_Data.signature";
     const char *opt_input_file =  "../Sensor_Data";
