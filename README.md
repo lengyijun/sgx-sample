@@ -1,3 +1,5 @@
+先修改 `app/app.c` 34行中的路径
+
 ```
 make
 ./sgx-sample
