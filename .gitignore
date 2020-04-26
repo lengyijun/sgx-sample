@@ -12,6 +12,7 @@ interface/enclave_u.h
 sealeddata.bin
 secp256r1.pem
 Sensor_Data.signature
+demo_openssl/
 
 //go output
 sgx-sample
